@@ -1,14 +1,16 @@
 import React from 'react'
 import Header from './header/Header'
 import ItemMid from './items/MiddleItems';
-import DevTools from './devTools/Tools';
+import MenuIt from './menuTools/MenuItems';
+import NewsItems from './menuTools/News';
 
 const App = () => {
     return (
         <div>
             <Header />
             <ItemMid />
-            <DevTools />
+            <MenuIt />
+            <NewsItems />
         </div>
     )
 }
